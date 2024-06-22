@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Tip Calculator</title>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    </head>
+
+    <body>
+
+        <div id="container">
+            <h1>Split Bill Calculator</h1>
+
+            <div id="calculator">
+                <form>
+                    <label>
+                        How much was your bill?<br>
+                        $ <input type="text" id="billAmount"><br>
+                    </label>
+                    <label>
+                        How many people are sharing the bill?<br>
+                        <input type="text" id="totalPeople"> people
+                    </label><br>
+                    <button type="button" id="calculate"> Calculate!</button>
+
+                </form>
+
+            </div> <!--calculator-->
+
+            <div id="totalTip" style="display:none;">
+                Total Amount to be paid by Each Person: <span id="tipAmount"></span>
+            </div><!--totalTip-->
+
+
+        </div> <!--container-->
+
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
